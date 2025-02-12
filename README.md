@@ -18,7 +18,7 @@ The model was built using fictional data on students' grades and profiles to pre
 
 -> Chance of Admit: Probability of admission (out of 1)
 
-The dataset was normalized, and the model was trained using Random Forest with hyperparameter tuning via grid search. The main focus is on leveraging BentoML as a deployment solution for the machine learning model, with the goal of deploying it to a cloud platform like AWS.
+The dataset was normalized and the model was trained using Random Forest with hyperparameter tuning via grid search. The main focus is on leveraging BentoML as a deployment solution for the machine learning model, with the goal of deploying it to a cloud platform like AWS.
 
 
 #### Step 1 - Create env
