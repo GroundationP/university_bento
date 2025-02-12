@@ -12,5 +12,5 @@ source activate bentoml_env
 #### Step 2 - Install dependencies
 pip3 install -r requirements.txt
 
-#### Step 3 - Unzip docker image
+#### Step - Unzip docker image
 tar -xvf ./docker/bento_image.tar
