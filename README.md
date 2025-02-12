@@ -1,4 +1,4 @@
-# Bento API deployment
+# BentoML API deployment
 This is a Bento API to predict chances of admission in a university
 The model was built using fictional data on students' grades and profiles to predict their chances of admission to a university. The variables included are:
 
