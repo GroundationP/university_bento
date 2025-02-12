@@ -12,5 +12,10 @@ source activate bentoml_env
 #### Step 2 - Install dependencies
 pip3 install -r requirements.txt
 
-#### Step - Unzip docker image
-tar -xvf ./docker/bento_image.tar
+
+#### Step 3 - Installing docker image
+docker load -i bento_image.tar
+
+docker images
+
+docker run --rm -p 3000:3000 araujovieiradeandrade/rf_regressor_service
