@@ -9,5 +9,5 @@ cd  bentoml_env/bin
 source activate bentoml_env
 
 
-# Install dependencies
+#### Step 2 - Install dependencies
 pip3 install -r requirements.txt
