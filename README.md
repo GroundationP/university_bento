@@ -18,4 +18,4 @@ docker load -i bento_image.tar
 
 docker images
 
-docker run --rm -p 3000:3000 araujovieiradeandrade/rf_regressor_service
+docker run --rm -p 3000:3000 arde/rf_regressor_service
