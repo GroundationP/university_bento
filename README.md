@@ -1,5 +1,5 @@
 # Bento API deployment
-Bento API to predict chances of admission in a university
+This is a Bento API to predict chances of admission in a university
 
 #### Step 1 - Create env
 python3 -m venv bentoml_env
