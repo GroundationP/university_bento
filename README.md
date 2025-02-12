@@ -43,6 +43,7 @@ docker run --rm -p 3000:3000 arde/rf_regressor_service
 
 #### Step 4 - Open a new terminal to launch queries
 cd  bentoml_env/bin
+
 source activate bentoml_env
 
 #### Step 5 - Copy and paste the query.txt file available to get a prediction of chances of admission in a university
