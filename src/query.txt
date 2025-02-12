@@ -1,0 +1,23 @@
+# Get the JWT token
+token=$(curl -s -X POST http://127.0.0.1:3000/login \
+     -H "Content-Type: application/json" \
+     -d '{"username": "usergalo", "password": "pw123"}' | jq -r '.token')
+
+# Use this token to send a POST request to the prediction endpoint
+curl -X POST http://127.0.0.1:3000/predict \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer $token" \
+     -d '{
+  		  "GRE_Score": 0.2,
+  		  "TOEFL_Score": -0.85,
+  		  "University_Rating": 0.89,
+  		  "SOP": -1.9,
+  		  "LOR_": 1.02,
+  		  "CGPA": -1.9,
+  		  "Research": 1
+}'
+
+
+
+
+
