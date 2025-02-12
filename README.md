@@ -26,3 +26,10 @@ cd  bentoml_env/bin
 source activate bentoml_env
 
 #### Step 5 - Copy and paste the query.txt file available to get a prediction of chances of admission in a university
+
+#### Step 6 - To perform unit tests
+pytest tests/test_authentification.py
+
+pytest tests/test_connexion.py
+
+pytest tests/test_prediction.py
